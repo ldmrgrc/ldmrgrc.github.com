@@ -12,7 +12,7 @@ links.forEach(function (l) {
         content.classList.add('animate__fadeOutUp');
 
         setTimeout(() => {
-            location.href = '/'
+            location.href = '/boletin'
         }, 1000);
 
         return false;
